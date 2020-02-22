@@ -15,10 +15,10 @@
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 	<!-- favicon -->
-	<link rel="shortcut icon" href="<?= base_url() ?>assets/images/logo.png">
+	<link rel="shortcut icon" href="assets/images/logo.png">
 
 	<!-- style -->
-	<link rel="stylesheet" href="<?= base_url() ?>assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 
 	<!-- font -->
 	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
@@ -43,11 +43,11 @@
 	<nav class="navbar navbar-expand-md navbar-light fixed-top shadow-sm bg-white py-3">
 		<div class="container">
 			<div class="d-none d-lg-block justify-content-sm-center w-25">
-				<a class="navbar-brand mr-0" href="<?= site_url('') ?>"><img src="<?= base_url() ?>assets/images/logo.png" class="w-50" alt="logo"></a>
+				<a class="navbar-brand mr-0" href=""><img src="assets/images/logo.png" class="w-50" alt="logo"></a>
 			</div>
 
 			<!--  Show this only on mobile to medium screens  -->
-			<a class="navbar-brand d-lg-none w-25" href="<?= site_url('') ?>"><img src="<?= base_url() ?>assets/images/logo.png" class="w-100" alt="logo"></a>
+			<a class="navbar-brand d-lg-none w-25" href=""><img src="assets/images/logo.png" class="w-100" alt="logo"></a>
 
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar" aria-controls="collapsingNavbar" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -90,21 +90,21 @@
 		</ol>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="<?= base_url() ?>assets/images/slider/slider-1.jpg" class="d-block w-100 img-fluid" alt="...">
+				<img src="assets/images/slider/slider-1.jpg" class="d-block w-100 img-fluid" alt="...">
 				<div class="carousel-caption d-none d-md-block">
 					<h1>Workspace</h1>
 					<p>My Room Is My Workspace and where i Make My Program Code.</p>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="<?= base_url() ?>assets/images/slider/slider-3.jpg" class="d-block w-100 img-fluid" alt="...">
+				<img src="assets/images/slider/slider-3.jpg" class="d-block w-100 img-fluid" alt="...">
 				<div class="carousel-caption d-none d-md-block">
 					<h1>Workspace</h1>
 					<p>My Room Is My Workspace and where i Make My Program Code.</p>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="<?= base_url() ?>assets/images/slider/slider-4.jpg" class="d-block w-100 img-fluid" alt="...">
+				<img src="assets/images/slider/slider-4.jpg" class="d-block w-100 img-fluid" alt="...">
 				<div class="carousel-caption d-none d-md-block">
 					<h1>Workspace</h1>
 					<p>My Room Is My Workspace and where i Make My Program Code.</p>
@@ -128,7 +128,7 @@
 		<div class="container">
 			<div class="row no-gutters">
 				<div class="col-md-4">
-					<img src="<?= base_url() ?>assets/images/foto.jpg" class="card-img img-fluid" style="height:450px" alt="...">
+					<img src="assets/images/foto.jpg" class="card-img img-fluid" style="height:450px" alt="...">
 				</div>
 				<div class="col-md-8">
 					<div class="card-body">
@@ -153,7 +153,7 @@
 			<div class="row">
 
 				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
+					<img src="assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
 					<div style="border:1px solid rgb(184, 209, 197, .8)">
 						<h5 class="card-title pt-3">PHP</h5>
 						<p>
@@ -165,32 +165,7 @@
 					</div>
 				</div>
 				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
-					<div style="border:1px solid rgb(184, 209, 197, .8)">
-						<h5 class="card-title pt-3">PHP</h5>
-						<p>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-						</p>
-					</div>
-				</div>
-
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
-					<div style="border:1px solid rgb(184, 209, 197, .8)">
-						<h5 class="card-title pt-3">PHP</h5>
-						<p>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-						</p>
-					</div>
-				</div>
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
+					<img src="assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
 					<div style="border:1px solid rgb(184, 209, 197, .8)">
 						<h5 class="card-title pt-3">PHP</h5>
 						<p>
@@ -203,7 +178,7 @@
 				</div>
 
 				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
+					<img src="assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
 					<div style="border:1px solid rgb(184, 209, 197, .8)">
 						<h5 class="card-title pt-3">PHP</h5>
 						<p>
@@ -215,7 +190,7 @@
 					</div>
 				</div>
 				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
+					<img src="assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
 					<div style="border:1px solid rgb(184, 209, 197, .8)">
 						<h5 class="card-title pt-3">PHP</h5>
 						<p>
@@ -228,7 +203,7 @@
 				</div>
 
 				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
+					<img src="assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
 					<div style="border:1px solid rgb(184, 209, 197, .8)">
 						<h5 class="card-title pt-3">PHP</h5>
 						<p>
@@ -240,7 +215,32 @@
 					</div>
 				</div>
 				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
+					<img src="assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
+					<div style="border:1px solid rgb(184, 209, 197, .8)">
+						<h5 class="card-title pt-3">PHP</h5>
+						<p>
+							<i class="fa fa-star text-warning"></i>
+							<i class="fa fa-star text-warning"></i>
+							<i class="fa fa-star text-warning"></i>
+							<i class="fa fa-star text-warning"></i>
+						</p>
+					</div>
+				</div>
+
+				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
+					<img src="assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
+					<div style="border:1px solid rgb(184, 209, 197, .8)">
+						<h5 class="card-title pt-3">PHP</h5>
+						<p>
+							<i class="fa fa-star text-warning"></i>
+							<i class="fa fa-star text-warning"></i>
+							<i class="fa fa-star text-warning"></i>
+							<i class="fa fa-star text-warning"></i>
+						</p>
+					</div>
+				</div>
+				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
+					<img src="assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
 					<div style="border:1px solid rgb(184, 209, 197, .8)">
 						<h5 class="card-title pt-3">PHP</h5>
 						<p>
@@ -263,7 +263,7 @@
 			<div class="row">
 				<div data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="2000" class="col-md-4 col-12 text-muted p-3">
 					<div class="card">
-						<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
+						<img src="assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
 						<div class="card-body">
 							<h4 class="card-title text-center">Lorem ipsum</h4>
 							<p class="text-justify">
@@ -276,7 +276,7 @@
 				</div>
 				<div data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-4 col-12 text-muted p-3">
 					<div data-aos="zoom-in-up" class="card">
-						<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
+						<img src="assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
 						<div class="card-body">
 							<h4 class="card-title text-center">Lorem ipsum</h4>
 							<p class="text-justify">
@@ -289,7 +289,7 @@
 				</div>
 				<div data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-4 col-12 text-muted p-3">
 					<div class="card">
-						<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
+						<img src="assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
 						<div class="card-body">
 							<h4 class="card-title text-center">Lorem ipsum</h4>
 							<p class="text-justify">
@@ -314,7 +314,7 @@
 					<div class="card pt-2 pl-2 pr-2">
 						<div class="row no-gutters">
 							<div class="col-md-4 col-12">
-								<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="rounded img-fluid" alt="...">
+								<img src="assets/images/slider/slider-2.jpg" class="rounded img-fluid" alt="...">
 							</div>
 							<div class="col-md-8 col-12">
 								<div class="card-body">
@@ -331,7 +331,7 @@
 					<div class="card pt-2 pl-2 pr-2">
 						<div class="row no-gutters">
 							<div class="col-md-4 col-12">
-								<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="rounded img-fluid" alt="...">
+								<img src="assets/images/slider/slider-2.jpg" class="rounded img-fluid" alt="...">
 							</div>
 							<div class="col-md-8 col-12">
 								<div class="card-body">
@@ -348,7 +348,7 @@
 					<div class="card pt-2 pl-2 pr-2">
 						<div class="row no-gutters">
 							<div class="col-md-4 col-12">
-								<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="rounded img-fluid" alt="...">
+								<img src="assets/images/slider/slider-2.jpg" class="rounded img-fluid" alt="...">
 							</div>
 							<div class="col-md-8 col-12">
 								<div class="card-body">
@@ -365,7 +365,7 @@
 					<div class="card pt-2 pl-2 pr-2">
 						<div class="row no-gutters">
 							<div class="col-md-4 col-12">
-								<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="rounded img-fluid" alt="...">
+								<img src="assets/images/slider/slider-2.jpg" class="rounded img-fluid" alt="...">
 							</div>
 							<div class="col-md-8 col-12">
 								<div class="card-body">
@@ -382,7 +382,7 @@
 					<div class="card pt-2 pl-2 pr-2">
 						<div class="row no-gutters">
 							<div class="col-md-4 col-12">
-								<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="rounded img-fluid" alt="...">
+								<img src="assets/images/slider/slider-2.jpg" class="rounded img-fluid" alt="...">
 							</div>
 							<div class="col-md-8 col-12">
 								<div class="card-body">
@@ -399,7 +399,7 @@
 					<div class="card pt-2 pl-2 pr-2">
 						<div class="row no-gutters">
 							<div class="col-md-4 col-12">
-								<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="rounded img-fluid" alt="...">
+								<img src="assets/images/slider/slider-2.jpg" class="rounded img-fluid" alt="...">
 							</div>
 							<div class="col-md-8 col-12">
 								<div class="card-body">
@@ -423,25 +423,25 @@
 		<div class="container">
 			<div class="row">
 				<div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 p-2 text-center col-6">
-					<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" width="150" height="150" class="img-fluid rounded-circle mb-3">
+					<img src="assets/images/slider/slider-2.jpg" width="150" height="150" class="img-fluid rounded-circle mb-3">
 					<h4>Lorem Ipsum</h4>
 					<p>Lorem ipsum dolor sit amet. sit amet.sit</p>
 					<p><span>2018-2020</span></p>
 				</div>
 				<div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 p-2 text-center col-6">
-					<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" width="150" height="150" class="img-fluid rounded-circle mb-3">
+					<img src="assets/images/slider/slider-2.jpg" width="150" height="150" class="img-fluid rounded-circle mb-3">
 					<h4>Lorem Ipsum</h4>
 					<p>Lorem ipsum dolor sit amet. sit amet.sit</p>
 					<p><span>2018-2020</span></p>
 				</div>
 				<div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 p-2 text-center col-6">
-					<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" width="150" height="150" class="img-fluid rounded-circle mb-3">
+					<img src="assets/images/slider/slider-2.jpg" width="150" height="150" class="img-fluid rounded-circle mb-3">
 					<h4>Lorem Ipsum</h4>
 					<p>Lorem ipsum dolor sit amet. sit amet.sit</p>
 					<p><span>2018-2020</span></p>
 				</div>
 				<div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 p-2 text-center col-6">
-					<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" width="150" height="150" class="img-fluid rounded-circle mb-3">
+					<img src="assets/images/slider/slider-2.jpg" width="150" height="150" class="img-fluid rounded-circle mb-3">
 					<h4>Lorem Ipsum</h4>
 					<p>Lorem ipsum dolor sit amet. sit amet.sit</p>
 					<p><span>2018-2020</span></p>
@@ -456,7 +456,7 @@
 		<div class="container">
 			<div class="row">
 				<div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-4 text-center foot-img">
-					<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" width="150" height="150" class="img-fluid">
+					<img src="assets/images/slider/slider-2.jpg" width="150" height="150" class="img-fluid">
 					<h6 class="pt-3">Visitors : </h6>
 				</div>
 				<div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="2000" class="col-md-4">
