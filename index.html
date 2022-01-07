@@ -1,707 +1,1182 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<!-- Head -->
 <head>
-	<title>My Portofolio</title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-H5DHG2TNCK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="Portofolio">
-	<meta name="keywords" content="portofolio, codeigniter, laravel, django, website, mobile android, build, make apps">
-	<meta name="author" content="Noor Alizah Afifah R">
-	<!-- Animate AOS -->
-	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    gtag('config', 'G-H5DHG2TNCK');
+  </script>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-	<!-- favicon -->
-	<link rel="shortcut icon" href="assets/images/logo.png">
+  <title>MHCreation</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
 
-	<!-- style -->
-	<link rel="stylesheet" href="assets/css/style.css">
+  <!-- Favicons -->
+  <link href="assets/img/mhc.png" rel="icon">
+  <link href="assets/img/mhc.png" rel="logo">
 
-	<!-- font -->
-	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,600,700"
+    rel="stylesheet">
 
-	<!-- icon -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/4.9.95/css/materialdesignicons.min.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/v4-shims.css">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-	<!-- lightbox css -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
 </head>
-<!-- Head End -->
 
-<!-- Body -->
 <body>
 
-	<!-- Slider -->
-	<nav class="navbar navbar-expand-md navbar-light fixed-top shadow-sm bg-white py-3">
-		<div class="container">
-			<div class="d-none d-lg-block justify-content-sm-center w-25">
-				<a class="navbar-brand mr-0" href=""><img src="assets/images/logo.png" style="height: 40px" alt="logo"></a>
-			</div>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-transparent">
+    <div class="container d-flex align-items-center">
 
-			<!--  Show this only on mobile to medium screens  -->
-			<a class="navbar-brand d-lg-none w-25" href=""><img src="assets/images/logo.png" class="w-100" alt="logo"></a>
+      <!-- <h1 class="logo mr-auto"><a href="index.html">MHCreation</a></h1> -->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class="logo mr-auto"><img src="assets/img/mhc.png" alt="" class="img-fluid"></a>
 
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar" aria-controls="collapsingNavbar" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
+      <nav class="main-nav d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#footer">Contact Us</a></li>
+        </ul>
+      </nav><!-- .main-nav-->
 
-			<div class="navbar-collapse collapse justify-content-center justify-content-sm-start" id="collapsingNavbar">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="#about">About Me </a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#skill">Skill </a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#hobby">Hobby </a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#achievement">Achievement </a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#experience">Experience </a>
-					</li>
-				</ul>
+    </div>
+  </header><!-- End Header -->
 
-				<span class="navbar-text">
-					Login
-				</span>
-			</div>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="clearfix">
+    <div class="container d-flex h-100">
+      <div class="row justify-content-center align-self-center">
+        <div class="col-md-6 intro-info order-md-first order-last" data-aos="zoom-in">
+          <h2>MHCreation Solutions<br>for Your <span>Business!</span></h2>
+          <div>
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          </div>
+        </div>
 
-		</div>
-	</nav>
-	<!-- Navbar End -->
+        <div class="col-md-6 intro-img order-md-last order-first" data-aos="zoom-out">
+          <img src="assets/img/intro-img.svg" alt="" class="img-fluid">
+        </div>
+      </div>
 
-	<!-- Slide -->
-	<div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-		<ol class="carousel-indicators">
-			<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-			<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-			<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-		</ol>
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="assets/images/slider/slider-1.jpg" class="d-block w-100 img-fluid" alt="...">
-				<div class="carousel-caption d-none d-md-block">
-					<h1>Workspace</h1>
-					<p>My Room Is My Workspace and where i Make My Program Code.</p>
-				</div>
-			</div>
-			<div class="carousel-item">
-				<img src="assets/images/slider/slider-3.jpg" class="d-block w-100 img-fluid" alt="...">
-				<div class="carousel-caption d-none d-md-block">
-					<h1>Workspace</h1>
-					<p>My Room Is My Workspace and where i Make My Program Code.</p>
-				</div>
-			</div>
-			<div class="carousel-item">
-				<img src="assets/images/slider/slider-4.jpg" class="d-block w-100 img-fluid" alt="...">
-				<div class="carousel-caption d-none d-md-block">
-					<h1>Workspace</h1>
-					<p>My Room Is My Workspace and where i Make My Program Code.</p>
-				</div>
-			</div>
-		</div>
-		<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
-		</a>
-		<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
-		</a>
-	</div>
-	<!-- Slider End -->
+    </div>
+  </section><!-- End Hero -->
 
-	<!-- About Me -->
-	<div data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="section bg-white" id="about">
-		<h3 class="text-center pb-3">About Me</h3>
-		<div class="container">
-			<div class="row no-gutters">
-				<div class="col-md-4">
-					<img src="assets/images/foto.jpg" class="card-img img-fluid rounded-circle" style="height:400px" alt="...">
-				</div>
-				<div class="col-md-8">
-					<div class="card-body">
-						<h5 class="card-title">Noor Alizah Afifah R</h5>
-						<p class="card-text">
-							Born in Makassar on September 25, 2000, parents Ridwan and Dewi, father as a private employee mother as a housewife and owner of an online restaurant. The second child of 4 siblings, has 1 big brother and 2 twin brothers. Lived in Makassar until the age of 8 years, moved to Medan until the age of 10 years, moved again to Surabaya until the age of 14 years, and now lives in Depok.
-						</p>
-						<p class="card-text">
-							Dream when I was little was to be a scientist or astronaut, from childhood I never wanted to be the person sitting behind a computer. But now working as a programmer, I think fate is funny because sometimes what we most avoid is what we will become later. Right now my dream is to make my parents proud and use all my abilities to create something meaningful and useful.
-						</p>
-						<p class="card-text">
-							I graduated elementary school in 2012 at SDN 2 Waru Sidoarjo, then continued junior high school at SMPN 3 Waru Sidoarjo, I graduated in 2015 at SMPN 11 Depok, I continued high school at SMKN 1 Depok and graduated in 2018. Currently I am continuing my studies S1 and S2 at Gunadarma University and scheduled to graduate in 2023 with a bachelor-master degree.
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- About Me End -->
+  <main id="main">
 
-	<!-- Skill -->
-	<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="section bg-green" id="skill">
-		<h3 class="text-center pb-3">Skill</h3>
-		<div class="container">
-			<div class="row">
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="assets/images/skill/html.png" class="img-fluid" style="height: 100px;" alt="...">
-					<div>
-						<h5 class="card-title pt-3 text-white">HTML, CSS, JS</h5>
-						<p>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-						</p>
-					</div>
-				</div>
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="assets/images/skill/boot.png" class="img-fluid" style="height: 100px;" alt="...">
-					<div>
-						<h5 class="card-title pt-3 text-white">Bootstrap</h5>
-						<p>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-						</p>
-					</div>
-				</div>
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="assets/images/skill/php.png" class="img-fluid" style="height: 100px;" alt="...">
-					<div>
-						<h5 class="card-title pt-3 text-white">PHP</h5>
-						<p>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-						</p>
-					</div>
-				</div>
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="assets/images/skill/python.png" style="height: 100px;" class="img-fluid" alt="...">
-					<div>
-						<h5 class="card-title pt-3 text-white">Python</h5>
-						<p>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-						</p>
-					</div>
-				</div>
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
 
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="assets/images/skill/ci.png" style="height: 100px;" class="img-fluid" alt="...">
-					<div>
-						<h5 class="card-title pt-3 text-white">Codeigniter</h5>
-						<p>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-						</p>
-					</div>
-				</div>
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="assets/images/skill/laravel.png" style="height: 100px;" class="img-fluid" alt="...">
-					<div>
-						<h5 class="card-title pt-3 text-white">Laravel</h5>
-						<p>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-						</p>
-					</div>
-				</div>
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="assets/images/skill/django.webp" style="height: 100px;" class="img-fluid" alt="...">
-					<div>
-						<h5 class="card-title pt-3 text-white">Django</h5>
-						<p>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-						</p>
-					</div>
-				</div>
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="assets/images/skill/java.png" style="height: 100px;" class="img-fluid" alt="...">
-					<div>
-						<h5 class="card-title pt-3 text-white">Java</h5>
-						<p>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-						</p>
-					</div>
-				</div>
+      <div class="container" data-aos="fade-up">
+        <div class="row">
 
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="assets/images/skill/mysql.png" style="height: 100px;" class="img-fluid" alt="...">
-					<div>
-						<h5 class="card-title pt-3 text-white">MySQL</h5>
-						<p>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-						</p>
-					</div>
-				</div>
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="assets/images/skill/post.png" style="height: 100px;" class="img-fluid" alt="...">
-					<div>
-						<h5 class="card-title pt-3 text-white">PostgreSQL</h5>
-						<p>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-						</p>
-					</div>
-				</div>
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="assets/images/skill/vbnet.png" style="height: 100px;" class="img-fluid" alt="...">
-					<div>
-						<h5 class="card-title pt-3 text-white">VB.NET</h5>
-						<p>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-						</p>
-					</div>
-				</div>
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="assets/images/skill/ar.png" style="height: 100px;" class="img-fluid" alt="...">
-					<div>
-						<h5 class="card-title pt-3 text-white">Augmented Reality</h5>
-						<p>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Skill End -->
+          <div class="col-lg-5 col-md-6">
+            <div class="about-img" data-aos="fade-right">
+              <img src="assets/img/about-img.jpg" alt="">
+            </div>
+          </div>
 
-	<!-- Hobby -->
-	<div data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="section bg-white" id="hobby">
-		<h3 class="text-center pb-3">Hobby</h3>
-		<div class="container">
-			<div class="row">
-				<div data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="2000" class="col-md-4 col-12 text-muted p-3">
-					<div class="card">
-						<img src="assets/images/hobby/book.png" style="height: 250px" class="card-img-top" alt="...">
-						<div class="card-body">
-							<h4 class="card-title text-center">Reading Book's</h4>
-							<p class="text-justify">
-								My first hobby is reading books, my favorite book genres are sci-fi, fantasy, and history. Besides novels, I also like reading comics, history books, astronomy books, and geology books. In my opinion reading will add experience indirectly.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-4 col-12 text-muted p-3">
-					<div data-aos="zoom-in-up" class="card">
-						<img src="assets/images/hobby/chess.png" style="height: 250px" class="card-img-top" alt="...">
-						<div class="card-body">
-							<h4 class="card-title text-center">Play Chess</h4>
-							<p class="text-justify">
-								My second hobby is playing chess, in my opinion chess is very interesting. Apart from being a tool for refreshing, chess can also help sharpen the brain and force us to always focus on each opponent's movements.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-4 col-12 text-muted p-3">
-					<div class="card">
-						<img src="assets/images/hobby/movie.png" style="height: 250px" class="card-img-top" alt="...">
-						<div class="card-body">
-							<h4 class="card-title text-center">Watching Movies</h4>
-							<p class="text-justify">
-								My last hobby is watching movies, my favorite genres are fantasy, sci-fi, history, war, and medical. besides watching movies I also like watching animation or cartoons, because in my opinion films can help to imagine to find new things.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Hobby End -->
+          <div class="col-lg-7 col-md-6">
+            <div class="about-content" data-aos="fade-left">
+              <h2>About Us</h2>
+              <h3>We are ready to help you find the best solution for your business.</h3>
+              <p>MHCreation is the best technology consultant who can help provide the best solutions for your business
+                to lead the industrial revolution 4.0</p>
+              <p>We are ready to accept all problems and provide the best solutions quickly and with quality, by relying
+                on the best platform we provide a variety of services:</p>
+              <ul>
+                <li><i class="ion-android-checkmark-circle"></i> Software development, integration and maintenance</li>
+                <li><i class="ion-android-checkmark-circle"></i> Hardware integration, management and maintenance</li>
+                <li><i class="ion-android-checkmark-circle"></i> Networking integration, management and maintenance</li>
+                <li><i class="ion-android-checkmark-circle"></i> Information security (IS)</li>
+                <li><i class="ion-android-checkmark-circle"></i> IT management consultants</li>
+                <li><i class="ion-android-checkmark-circle"></i> Desktop, Mobile and Web application</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
 
-	<!-- Achievement -->
-	<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="section bg-green" id="achievement">
-		<h3 class="text-center pb-3">Achievement & Certificate</h3>
-		<div class="container">
-			<div class="row">
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-4 p-2 col-6">
-					<div class="card p-2">
-						<div class="row no-gutters">
-							<div class="col-md-4 col-12">
-								<img src="assets/images/achievement/smkn1.png" style="height: 150px" class="rounded img-fluid" alt="...">
-							</div>
-							<div class="col-md-8 col-12">
-								<div class="card-body">
-									<h6 class="card-title">The best graduate</h6>
-									<p class="">
-										RPL - SMKN 1 DEPOK 2018 Year
-									</p>
-								</div>
-								<div class="card-footer bg-white">
-									<a href="#"> Certificate Link</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-4 p-2 col-6">
-					<div class="card p-2">
-						<div class="row no-gutters">
-							<div class="col-md-4 col-12">
-								<img src="assets/images/achievement/kominfo.png" style="height: 150px" class="rounded img-fluid" alt="...">
-							</div>
-							<div class="col-md-8 col-12">
-								<div class="card-body">
-									<h6 class="card-title">KOMINFO Scholarships</h6>
-									<p class="">
-										Cyber Security - UI 2019 Year.
-									</p>
-								</div>
-								<div class="card-footer bg-white">
-									<a target="_blank" href="https://bit.ly/32jQ4aA"> Certificate Link</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-4 p-2 col-6">
-					<div class="card p-2">
-						<div class="row no-gutters">
-							<div class="col-md-4 col-12">
-								<img src="assets/images/achievement/kominfo.png" style="height: 150px" class="rounded img-fluid" alt="...">
-							</div>
-							<div class="col-md-8 col-12">
-								<div class="card-body">
-									<h6 class="card-title">KOMINFO Scholarships</h6>
-									<p class="">
-										Big Data - AWS 2020 Year
-									</p>
-								</div>
-								<div class="card-footer bg-white">
-									<a href="#"> Certificate Link</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-4 p-2 col-6">
-					<div class="card p-2">
-						<div class="row no-gutters">
-							<div class="col-md-4 col-12">
-								<img src="assets/images/achievement/lks.png" style="height: 150px" class="rounded img-fluid" alt="...">
-							</div>
-							<div class="col-md-8 col-12">
-								<div class="card-body">
-									<h6 class="card-title">LKS SMK</h6>
-									<p class="">
-										IT Application - Runner Up 2018 Year
-									</p>
-								</div>
-								<div class="card-footer bg-white">
-									<a target="_blank" href="https://bit.ly/2HIfzsy"> Certificate Link</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-4 p-2 col-6">
-					<div class="card p-2">
-						<div class="row no-gutters">
-							<div class="col-md-4 col-12">
-								<img src="assets/images/achievement/bekraf.png" style="height: 150px" class="rounded img-fluid" alt="...">
-							</div>
-							<div class="col-md-8 col-12">
-								<div class="card-body">
-									<h6 class="card-title">Bekraf Habibie</h6>
-									<p class="">
-										Game Competition - Clevio 2018 Year
-									</p>
-								</div>
-								<div class="card-footer bg-white">
-									<a target="_blank" href="https://bit.ly/2PgLnsD"> Certificate Link</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-4 p-2 col-6">
-					<div class="card p-2">
-						<div class="row no-gutters">
-							<div class="col-md-4 col-12">
-								<img src="assets/images/achievement/mercu.png" style="height: 150px" class="rounded img-fluid" alt="...">
-							</div>
-							<div class="col-md-8 col-12">
-								<div class="card-body">
-									<h6 class="card-title">Mercu Buana Festival</h6>
-									<p class="">
-										Business App Proposal - Mercu Buana 2020 Year
-									</p>
-								</div>
-								<div class="card-footer bg-white">
-									<a target="_blank" href="https://bit.ly/2HNSmVW"> Certificate Link</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-4 p-2 col-6">
-					<div class="card p-2">
-						<div class="row no-gutters">
-							<div class="col-md-4 col-12">
-								<img src="assets/images/achievement/udemy.png" style="height: 150px" class="rounded img-fluid" alt="...">
-							</div>
-							<div class="col-md-8 col-12">
-								<div class="card-body">
-									<h6 class="card-title">Udemy Training</h6>
-									<p class="">
-										Flutter Training - Udemy 2020 Year
-									</p>
-								</div>
-								<div class="card-footer bg-white">
-									<a href="#"> Certificate Link</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-4 p-2 col-6">
-					<div class="card p-2">
-						<div class="row no-gutters">
-							<div class="col-md-4 col-12">
-								<img src="assets/images/achievement/trilogi.png" style="height: 150px" class="rounded img-fluid" alt="...">
-							</div>
-							<div class="col-md-8 col-12">
-								<div class="card-body">
-									<h6 class="card-title">Trilogi Competition</h6>
-									<p class="">
-										Web Design Competition - Trilogi 2018 Year
-									</p>
-								</div>
-								<div class="card-footer bg-white">
-									<a target="_blank" href="https://bit.ly/2v8jdJl"> Certificate Link</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-4 p-2 col-6">
-					<div class="card p-2">
-						<div class="row no-gutters">
-							<div class="col-md-4 col-12">
-								<img src="assets/images/achievement/dinacom.png" style="height: 150px" class="rounded img-fluid" alt="...">
-							</div>
-							<div class="col-md-8 col-12">
-								<div class="card-body">
-									<h6 class="card-title">Dian Nuswantoro Festival</h6>
-									<p class="">
-										Apps Competition - Dian Nuswantoro 2018 Year
-									</p>
-								</div>
-								<div class="card-footer bg-white">
-									<a target="_blank" href="https://bit.ly/2v783Vo"> Certificate Link</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-4 p-2 col-6">
-					<div class="card p-2">
-						<div class="row no-gutters">
-							<div class="col-md-4 col-12">
-								<img src="assets/images/achievement/kominfo.png" style="height: 150px" class="rounded img-fluid" alt="...">
-							</div>
-							<div class="col-md-8 col-12">
-								<div class="card-body">
-									<h6 class="card-title">KOMINFO Schoolarship</h6>
-									<p class="">
-										Digital Business - UNPAD 2019 Year
-									</p>
-								</div>
-								<div class="card-footer bg-white">
-									<a target="_blank" href="https://bit.ly/38R2yZC"> Certificate Link</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-4 p-2 col-6">
-					<div class="card p-2">
-						<div class="row no-gutters">
-							<div class="col-md-4 col-12">
-								<img src="assets/images/achievement/gdk.png" style="height: 150px" class="rounded img-fluid" alt="...">
-							</div>
-							<div class="col-md-8 col-12">
-								<div class="card-body">
-									<h6 class="card-title">Google Developer Kejar</h6>
-									<p class="">
-										Mobile Web Specialist - Inixindo 2018 Year
-									</p>
-								</div>
-								<div class="card-footer bg-white">
-									<a target="_blank" href="https://bit.ly/2VdgRDD"> Certificate Link</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-4 p-2 col-6">
-					<div class="card p-2">
-						<div class="row no-gutters">
-							<div class="col-md-4 col-12">
-								<img src="assets/images/achievement/iak.jpg" style="height: 150px" class="rounded img-fluid" alt="...">
-							</div>
-							<div class="col-md-8 col-12">
-								<div class="card-body">
-									<h6 class="card-title">Indonesia Android Kejar</h6>
-									<p class="">
-										Android Intermediate - Inixindo 2017 Year
-									</p>
-								</div>
-								<div class="card-footer bg-white">
-									<a target="_blank" href="https://bit.ly/2uqSho4"> Certificate Link</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Achievement End -->
+    </section><!-- End About Section -->
 
-	<!-- Experience -->
-	<div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="section bg-white" id="experience">
-		<h3 class="text-center pb-3">Experience</h3>
-		<div class="container">
-			<div class="row">
-				<div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 p-2 text-center col-6">
-					<img src="assets/images/experience/dev.png" style="height: 150px;" class="img-fluid rounded-circle mb-3">
-					<h4>Freelance</h4>
-					<p>Freelance Programmer</p>
-					<p><span>2017-Now</span></p>
-				</div>
-				<div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 p-2 text-center col-6">
-					<img src="assets/images/experience/koin.png" style="height: 150px;" class="img-fluid rounded-circle mb-3">
-					<h4>KO-IN (Toko Indonesia)</h4>
-					<p>Contract Programmer</p>
-					<p><span>2019-Now</span></p>
-				</div>
-				<div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 p-2 text-center col-6">
-					<img src="assets/images/experience/powernet.png" style="height: 150px;" class="img-fluid rounded-circle mb-3">
-					<h4>PT. Powernet Indosolution</h4>
-					<p>Freelance Programmer</p>
-					<p><span>2020-Now</span></p>
-				</div>
-				<div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 p-2 text-center col-6">
-					<img src="assets/images/experience/noimage.png" style="height: 150px;" class="img-fluid rounded-circle mb-3">
-					<h4>PT.MAAI</h4>
-					<p>Freelance Programmer</p>
-					<p><span>2020-Now</span></p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Experience End -->
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
 
-	<!-- Footer -->
-	<div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="section bg-footer" id="">
-		<div class="container">
-			<div class="row">
-				<div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-4 text-center foot-img">
-					<img src="assets/images/logo.png" style="height: 100px" class="img-fluid">
-				</div>
-				<div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-4">
-					<h4 class="pl-3">Contact Me</h4>
-					<div class="p-3">
-						<h6 class="text-light"><i class="fa fa-whatsapp text-success logo-foot"></i> 0858 8457 1705</h6>
-						<h6 class="text-light"><i class="fa fa-instagram text-danger logo-foot"></i> @nooralizah948</h6>
-						<h6 class="text-light"><i class="fa fa-linkedin text-primary logo-foot"></i> Noor Afifah</h6>
-						<h6 class="text-light"><i class="fa fa-envelope text-danger logo-foot"></i> nooralizahar@gmail.com</h6>
-						<h6 class="text-light"><i class="fa fa-github text-info logo-foot"></i> kuroiyuki48</h6>
-						<h6 class="text-light"><i class="fa fa-facebook text-primary logo-foot"></i> Noor Alizah</h6>
-					</div>
-				</div>
-				<div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-4">
-					<h4 class="pl-3">Send Me Message</h4>
-					<div class="p-3 rounded">
-						<form class="pt-3">
-							<div class="form-group">
-								<input type="text" name="nama" class="form-control" autocomplete="off" required placeholder="Name">
-							</div>
-							<div class="form-group">
-								<input type="email" name="email" class="form-control" autocomplete="off" required placeholder="Email">
-							</div>
-							<div class="form-group">
-								<textarea class="form-control" placeholder="Message"></textarea>
-							</div>
-							<div class="form-group">
-								<button class="btn btn-success form-control">Send</button>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-			<hr style="border: .5px solid white">
-			<p class="text-white">Copyright 2020 @ Noor Alizah Afifah R</p>
-		</div>
-	</div>
-	<!-- Footer End -->
+        <header class="section-header">
+          <h3>Services</h3>
+          <p></p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-aos="zoom-in">
+            <div class="box">
+              <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline"
+                  style="color: #ff689b;"></i></div>
+              <h4 class="title"><a href="#">Software development, integration and maintenance</a></h4>
+              <p class="description"></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="box">
+              <div class="icon" style="background: #fff0da;"><i class="ion-ios-cloud-upload"
+                  style="color: #e98e06;"></i></div>
+              <h4 class="title"><a href="#">Server development, integration and maintenance</a></h4>
+              <p class="description"></p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="box">
+              <div class="icon" style="background: #e6fdfc;"><i class="ion-ios-world-outline"
+                  style="color: #3fcdc7;"></i></div>
+              <h4 class="title"><a href="#">Network development, integration and maintenance</a></h4>
+              <p class="description"></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow" data-aos="zoom-in">
+            <div class="box">
+              <div class="icon" style="background: #e1eeff;"><i class="ion-ios-compose-outline"
+                  style="color:#2282ff;"></i></div>
+              <h4 class="title"><a href="#">IT management consultants</a></h4>
+              <p class="description"></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow" data-aos="zoom-in">
+            <div class="box">
+              <div class="icon" style="background: #eafde7;"><i class="ion-ios-monitor" style="color:#41cf2e;"></i>
+              </div>
+              <h4 class="title"><a href="#">Desktop, Mobile and Web application</a></h4>
+              <p class="description"></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow" data-aos="zoom-in">
+            <div class="box">
+              <div class="icon" style="background: #ecebff;"><i class="ion-ios-locked" style="color:#8660fe;;"></i>
+              </div>
+              <h4 class="title"><a href="#">Information security (IS)</a></h4>
+              <p class="description"></p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Contact Us Section ======= -->
+    <section id="call-to-action" class="call-to-action">
+      <div class="container" data-aos="zoom-out">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">Message Us</h3>
+            <p class="cta-text"> Please contact us if you have questions, ask for help, discuss, or consult.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" target="_blank"
+              href="https://api.whatsapp.com/send?phone=6285884571705&text=Hello%2C%20MHCreation!">Message Us</i></a>
+          </div>
+        </div>
+
+      </div>
+    </section><!--  End Contact Us Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3 class="section-title">Our Portfolio</h3>
+        </header>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">Apps</li>
+              <li data-filter=".filter-design">UI Design</li>
+              <li data-filter=".filter-web">Website</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/app1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">Aplikasi KOIN</a></h4>
+                <p>Apps</p>
+                <div>
+                  <a href="assets/img/portfolio/app1.jpg" data-gall="portfolioGallery" title="Aplikasi KOIN"
+                    class="link-preview venobox"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/design/mock-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://103.122.35.17:8080/">Redesign KOIN Apps</a></h4>
+                <p>UI Design</p>
+                <div>
+                  <a href="assets/img/portfolio/design/mock-1.jpg" class="link-preview venobox"
+                    data-gall="portfolioGallery" title="UI Design"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/design/mock-2.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://103.122.35.17:8080/">KOIN Mitra</a></h4>
+                <p>UI Design</p>
+                <div>
+                  <a href="assets/img/portfolio/design/mock-2.png" class="link-preview venobox"
+                    data-gall="portfolioGallery" title="UI Design"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/design/mock-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://103.122.35.17:8080/">Timmy Apps</a></h4>
+                <p>UI Design</p>
+                <div>
+                  <a href="assets/img/portfolio/design/mock-3.jpg" class="link-preview venobox"
+                    data-gall="portfolioGallery" title="UI Design"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/design/mock-4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://103.122.35.17:8080/">jalanamal.com</a></h4>
+                <p>UI Design</p>
+                <div>
+                  <a href="assets/img/portfolio/design/mock-4.jpg" class="link-preview venobox"
+                    data-gall="portfolioGallery" title="UI Design"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/design/mock-5.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://103.122.35.17:8080/">EziCar</a></h4>
+                <p>UI Design</p>
+                <div>
+                  <a href="assets/img/portfolio/design/mock-5.png" class="link-preview venobox"
+                    data-gall="portfolioGallery" title="UI Design"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/design/mock-6.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://103.122.35.17:8080/">Chat Apps</a></h4>
+                <p>UI Design</p>
+                <div>
+                  <a href="assets/img/portfolio/design/mock-6.png" class="link-preview venobox"
+                    data-gall="portfolioGallery" title="UI Design"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/design/mock-7.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://103.122.35.17:8080/">RumahCerdas</a></h4>
+                <p>UI Design</p>
+                <div>
+                  <a href="assets/img/portfolio/design/mock-7.png" class="link-preview venobox"
+                    data-gall="portfolioGallery" title="UI Design"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/design/mock-8.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://103.122.35.17:8080/">Mask Website</a></h4>
+                <p>UI Design</p>
+                <div>
+                  <a href="assets/img/portfolio/design/mock-8.png" class="link-preview venobox"
+                    data-gall="portfolioGallery" title="UI Design"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/design/mock-9.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://103.122.35.17:8080/">BettaFish Apps</a></h4>
+                <p>UI Design</p>
+                <div>
+                  <a href="assets/img/portfolio/design/mock-9.png" class="link-preview venobox"
+                    data-gall="portfolioGallery" title="UI Design"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/design/mock-10.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://103.122.35.17:8080/">Cake Macaron</a></h4>
+                <p>UI Design</p>
+                <div>
+                  <a href="assets/img/portfolio/design/mock-10.png" class="link-preview venobox"
+                    data-gall="portfolioGallery" title="UI Design"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/design/mock-11.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://103.122.35.17:8080/">KIRIM Logistik</a></h4>
+                <p>UI Design</p>
+                <div>
+                  <a href="assets/img/portfolio/design/mock-11.jpg" class="link-preview venobox"
+                    data-gall="portfolioGallery" title="UI Design"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/design/mock-12.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://103.122.35.17:8080/">PetPlants</a></h4>
+                <p>UI Design</p>
+                <div>
+                  <a href="assets/img/portfolio/design/mock-12.jpg" class="link-preview venobox"
+                    data-gall="portfolioGallery" title="UI Design"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/design/mock-13.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://103.122.35.17:8080/">Yayasan BKD</a></h4>
+                <p>UI Design</p>
+                <div>
+                  <a href="assets/img/portfolio/design/mock-13.png" class="link-preview venobox"
+                    data-gall="portfolioGallery" title="UI Design"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/design/mock-14.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://103.122.35.17:8080/">Cloth Man</a></h4>
+                <p>UI Design</p>
+                <div>
+                  <a href="assets/img/portfolio/design/mock-14.png" class="link-preview venobox"
+                    data-gall="portfolioGallery" title="UI Design"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/design/mock-15.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://103.122.35.17:8080/">Edutown Privat</a></h4>
+                <p>UI Design</p>
+                <div>
+                  <a href="assets/img/portfolio/design/mock-15.jpg" class="link-preview venobox"
+                    data-gall="portfolioGallery" title="UI Design"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/design/mock-16.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://103.122.35.17:8080/">My Book</a></h4>
+                <p>UI Design</p>
+                <div>
+                  <a href="assets/img/portfolio/design/mock-16.jpg" class="link-preview venobox"
+                    data-gall="portfolioGallery" title="UI Design"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/design/mock-17.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://103.122.35.17:8080/">Scootic</a></h4>
+                <p>UI Design</p>
+                <div>
+                  <a href="assets/img/portfolio/design/mock-17.jpg" class="link-preview venobox"
+                    data-gall="portfolioGallery" title="UI Design"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/design/mock-18.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://103.122.35.17:8080/">ZClub Apps Store</a></h4>
+                <p>UI Design</p>
+                <div>
+                  <a href="assets/img/portfolio/design/mock-18.png" class="link-preview venobox"
+                    data-gall="portfolioGallery" title="UI Design"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/design/mock-19.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://103.122.35.17:8080/">Booking Futsal Apps</a></h4>
+                <p>UI Design</p>
+                <div>
+                  <a href="assets/img/portfolio/design/mock-19.jpg" class="link-preview venobox"
+                    data-gall="portfolioGallery" title="UI Design"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/design/mock-19.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://103.122.35.17:8080/">Zaitun Oil</a></h4>
+                <p>UI Design</p>
+                <div>
+                  <a href="assets/img/portfolio/design/mock-19.png" class="link-preview venobox"
+                    data-gall="portfolioGallery" title="UI Design"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/design/mock-20.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://103.122.35.17:8080/">Siti Oetomo</a></h4>
+                <p>UI Design</p>
+                <div>
+                  <a href="assets/img/portfolio/design/mock-20.png" class="link-preview venobox"
+                    data-gall="portfolioGallery" title="UI Design"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/design/mock-21.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://103.122.35.17:8080/">MedApps</a></h4>
+                <p>UI Design</p>
+                <div>
+                  <a href="assets/img/portfolio/design/mock-21.png" class="link-preview venobox"
+                    data-gall="portfolioGallery" title="UI Design"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/design/mock-22.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://103.122.35.17:8080/">Company Profile</a></h4>
+                <p>UI Design</p>
+                <div>
+                  <a href="assets/img/portfolio/design/mock-22.png" class="link-preview venobox"
+                    data-gall="portfolioGallery" title="UI Design"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/design/mock-23.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://103.122.35.17:8080/">E-Learning</a></h4>
+                <p>UI Design</p>
+                <div>
+                  <a href="assets/img/portfolio/design/mock-23.png" class="link-preview venobox"
+                    data-gall="portfolioGallery" title="UI Design"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/design/mock-24.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://103.122.35.17:8080/">P2P Lending</a></h4>
+                <p>UI Design</p>
+                <div>
+                  <a href="assets/img/portfolio/design/mock-24.png" class="link-preview venobox"
+                    data-gall="portfolioGallery" title="UI Design"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/design/mock-25.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://103.122.35.17:8080/">Panev</a></h4>
+                <p>UI Design</p>
+                <div>
+                  <a href="assets/img/portfolio/design/mock-25.png" class="link-preview venobox"
+                    data-gall="portfolioGallery" title="UI Design"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/archive.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">E=Archive SDA</a></h4>
+                <p>Website</p>
+                <div>
+                  <a href="assets/img/portfolio/archive1.png" class="link-preview venobox" data-gall="portfolioGallery"
+                    title="E=Archive SISDA"><i class="ion ion-eye"></i></a>
+                  <a href="#" target="_blank" class="link-details" title="More Details"><i
+                      class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/rma.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="https://rma300.com/">RMA300</a></h4>
+                <p>Website</p>
+                <div>
+                  <a href="assets/img/portfolio/rma1.png" class="link-preview venobox" data-gall="portfolioGallery"
+                    title="RMA300"><i class="ion ion-eye"></i></a>
+                  <a href="https://rma300.com/" target="_blank" class="link-details" title="More Details"><i
+                      class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/alisa.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://202.145.11.69:8006/">ALISA JLM</a></h4>
+                <p>Website</p>
+                <div>
+                  <a href="assets/img/portfolio/alisa1.png" class="link-preview venobox" data-gall="portfolioGallery"
+                    title="ALISA JLM"><i class="ion ion-eye"></i></a>
+                  <a href="http://202.145.11.69:8006/" target="_blank" class="link-details" title="More Details"><i
+                      class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/lms.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">LMS SDA</a></h4>
+                <p>Website</p>
+                <div>
+                  <a href="assets/img/portfolio/lms1.png" class="link-preview venobox" data-gall="portfolioGallery"
+                    title="LMS SDA"><i class="ion ion-eye"></i></a>
+                  <a href="#" target="_blank" class="link-details" title="More Details"><i
+                      class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/crm.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="https://lms.sisda.net/">CRM Natieva</a></h4>
+                <p>Website</p>
+                <div>
+                  <a href="assets/img/portfolio/crm1.png" class="link-preview venobox" data-gall="portfolioGallery"
+                    title="CRM Natieva"><i class="ion ion-eye"></i></a>
+                  <a href="https://lms.sisda.net/" target="_blank" class="link-details" title="More Details"><i
+                      class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/birru.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="https://pelayanan.birru.id/">Birru Pelayanan</a></h4>
+                <p>Website</p>
+                <div>
+                  <a href="assets/img/portfolio/birru.png" class="link-preview venobox" data-gall="portfolioGallery"
+                    title="Birru Pelayanan"><i class="ion ion-eye"></i></a>
+                  <a href="https://pelayanan.birru.id/" target="_blank" class="link-details" title="More Details"><i
+                      class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/nfs1.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="https://nfscommunity.com/">NFS Community</a></h4>
+                <p>Website</p>
+                <div>
+                  <a href="assets/img/portfolio/nfs.png" class="link-preview venobox" data-gall="portfolioGallery"
+                    title="NFS Community"><i class="ion ion-eye"></i></a>
+                  <a href="https://nfscommunity.com/" target="_blank" class="link-details" title="More Details"><i
+                      class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/keptiv.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="https://keptiv.com/">Keptiv</a></h4>
+                <p>Website</p>
+                <div>
+                  <a href="assets/img/portfolio/keptiv.png" class="link-preview venobox" data-gall="portfolioGallery"
+                    title="Keptiv"><i class="ion ion-eye"></i></a>
+                  <a href="https://keptiv.com/" target="_blank" class="link-details" title="More Details"><i
+                      class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/marketplace.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="https://marketplace.icourse.id/bantuan">Marketplace</a></h4>
+                <p>Website</p>
+                <div>
+                  <a href="assets/img/portfolio/marketplace.png" class="link-preview venobox"
+                    data-gall="portfolioGallery" title="Marketplace"><i class="ion ion-eye"></i></a>
+                  <a href="https://marketplace.icourse.id/bantuan" target="_blank" class="link-details"
+                    title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/pai.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://pai.kemenag.go.id/">Direktoran PAI</a></h4>
+                <p>Website</p>
+                <div>
+                  <a href="assets/img/portfolio/pai.png" class="link-preview venobox" data-gall="portfolioGallery"
+                    title="Direktoran PAI"><i class="ion ion-eye"></i></a>
+                  <a href="http://pai.kemenag.go.id/" target="_blank" class="link-details" title="More Details"><i
+                      class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/panitia.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://panitia.id/">Panitia.id</a></h4>
+                <p>Website</p>
+                <div>
+                  <a href="assets/img/portfolio/panitia.png" class="link-preview venobox" data-gall="portfolioGallery"
+                    title="Panitia.id"><i class="ion ion-eye"></i></a>
+                  <a href="http://panitia.id/" target="_blank" class="link-details" title="More Details"><i
+                      class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/pdpontren.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="https://ditpdpontren.kemenag.go.id/web/">Direktorat PDPONTREN</a></h4>
+                <p>Website</p>
+                <div>
+                  <a href="assets/img/portfolio/pdpontren.png" class="link-preview venobox" data-gall="portfolioGallery"
+                    title="Direktorat PDPONTREN"><i class="ion ion-eye"></i></a>
+                  <a href="https://ditpdpontren.kemenag.go.id/web/" target="_blank" class="link-details"
+                    title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/siaga.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="https://www.siagapendis.com/">SIAGA Pendis</a></h4>
+                <p>Website</p>
+                <div>
+                  <a href="assets/img/portfolio/siaga.png" class="link-preview venobox" data-gall="portfolioGallery"
+                    title="SIAGA Pendis"><i class="ion ion-eye"></i></a>
+                  <a href="https://www.siagapendis.com/" target="_blank" class="link-details" title="More Details"><i
+                      class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/pratista.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="https://pratistaskincare.com/">Pratistaskincare</a></h4>
+                <p>Website</p>
+                <div>
+                  <a href="assets/img/portfolio/pratista.png" class="link-preview venobox" data-gall="portfolioGallery"
+                    title="Pratistaskincare"><i class="ion ion-eye"></i></a>
+                  <a href="https://pratistaskincare.com/" target="_blank" class="link-details" title="More Details"><i
+                      class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/siva.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="https://siva.kemenperin.go.id/">SIVA Kemenperin</a></h4>
+                <p>Website</p>
+                <div>
+                  <a href="assets/img/portfolio/siva.png" class="link-preview venobox" data-gall="portfolioGallery"
+                    title="SIVA Kemenperin"><i class="ion ion-eye"></i></a>
+                  <a href="https://siva.kemenperin.go.id/" target="_blank" class="link-details" title="More Details"><i
+                      class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/sma.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="https://smaalazhary.sch.id/">SMA Al-Azhary</a></h4>
+                <p>Website</p>
+                <div>
+                  <a href="assets/img/portfolio/sma.png" class="link-preview venobox" data-gall="portfolioGallery"
+                    title="SMA Al-Azhary"><i class="ion ion-eye"></i></a>
+                  <a href="https://smaalazhary.sch.id/" target="_blank" class="link-details" title="More Details"><i
+                      class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/smp.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="https://smpalazhary.sch.id/">SMP Al-Azhary</a></h4>
+                <p>Website</p>
+                <div>
+                  <a href="assets/img/portfolio/smp.png" class="link-preview venobox" data-gall="portfolioGallery"
+                    title="SMP Al-Azhary"><i class="ion ion-eye"></i></a>
+                  <a href="https://smpalazhary.sch.id/" target="_blank" class="link-details" title="More Details"><i
+                      class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h3>Team</h3>
+          <p></p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+            <div class="member">
+              <img
+                src="https://previews.123rf.com/images/yupiramos/yupiramos1710/yupiramos171003184/87385889-software-language-programmer-avatar-vector-illustration-design.jpg"
+                class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Nicko Sambrano Putra</h4>
+                  <span>Programmer</span>
+                  <div class="social">
+                    <a href="https://github.com/ncksp"><i class="fa fa-github"></i></a>
+                    <a href="https://www.facebook.com/nickoputra07"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/ncksp/"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img
+                src="https://image.freepik.com/free-vector/software-language-programmer-avatar_24877-771.jpg"
+                class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Noor Alizah Afifah R</h4>
+                  <span>Programmer</span>
+                  <div class="social">
+                    <a href="https://github.com/kuroiyuki48"><i class="fa fa-github"></i></a>
+                    <a href="https://www.facebook.com/noor.alizah.73"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/noor-alizah-afifah-r-826630148/"><i
+                        class="fa fa-linkedin"></i></a>
+                    <a href="https://nooralizahar.github.io/portofolio/"><i class="fa fa-globe"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <img
+                src="https://image.freepik.com/free-vector/software-language-programmer-avatar_24877-763.jpg"
+                class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Fandy Ramadhan</h4>
+                  <span>UI/UX Designer</span>
+                  <div class="social">
+                    <a href="https://github.com/fandyramadhan"><i class="fa fa-github"></i></a>
+                    <a href="https://www.facebook.com/madhonn"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/fandy-ramadhan-b75124169/"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container" data-aos="fade-up">
+        <header class="section-header">
+          <h3>Frequently Asked Questions</h3>
+          <p></p>
+        </header>
+
+        <ul id="faq-list" data-aos="fade-up">
+          <li>
+            <a data-toggle="collapse" class="collapsed" href="#faq1">What is MHCreation? <i
+                class="ion-android-remove"></i></a>
+            <div id="faq1" class="collapse" data-parent="#faq-list">
+              <p>
+                We are a software development company specialized in building software from scratch to a comprehensive
+                product. We are a team of talented developers with both deep experience and strong skills in making web,
+                desktop, and mobile applications.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq2" class="collapsed">What are your main technologies?? <i
+                class="ion-android-remove"></i></a>
+            <div id="faq2" class="collapse" data-parent="#faq-list">
+              <p>
+                We build software in PHP (Laravel/CI), Java (Spring), microservices architecture, REST API, WebSockets,
+                JavaScript (VueJs, ReactJs, AngularJs), React Native, Flutter, Redis, MYSQL, PostgreSQL, MongoDB, nginx,
+                apache2. We have on board experienced team of UI/UX designers as well, who take care of appearance and
+                intuitiveness of our developed projects.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq3" class="collapsed">What is an MVP? <i
+                class="ion-android-remove"></i></a>
+            <div id="faq3" class="collapse" data-parent="#faq-list">
+              <p>
+                MVP (Minimum Viable Product) is a product with just enough features to satisfy early customers and to
+                provide feedback for future product development. In other words, it is a product built as quickly as
+                possible with enough basic functionalities. This approach allows the implementation of a product on the
+                market so the users can test it, you can gather feedback, and constantly improve your product. MVP
+                provides cost-effectiveness and time savings.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq4" class="collapsed">How much time do you need for building MVP? <i
+                class="ion-android-remove"></i></a>
+            <div id="faq4" class="collapse" data-parent="#faq-list">
+              <p>
+                The time required to deliver a product depends on the scope of the project and the type of product that
+                will be built. We start cooperation with the concept stage of the project to understand the product’s
+                needs and determine what is the proper way to develop it. After that, we are able to estimate the
+                duration of product development.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq5" class="collapsed">What details should I provide in a project
+              specification? <i class="ion-android-remove"></i></a>
+            <div id="faq5" class="collapse" data-parent="#faq-list">
+              <p>
+                There are no specific guidelines. All you have to do is tell us what product you want to build and what
+                functionalities you need. Anyway, we highly recommend to clearly define what exactly you plan on
+                building, or how to improve your existing web or mobile product. We offer a complimentary project
+                specification template for all of our clients. If you need it, contact us on:
+                mediahorecreation@gmail.com
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq6" class="collapsed">Can MHCreation support my existing development
+              team? <i class="ion-android-remove"></i></a>
+            <div id="faq6" class="collapse" data-parent="#faq-list">
+              <p>
+                Yes, it is possible. You can use the help of our experts. Depending on your needs, our developers can
+                join to your internal team and start working with them. Another solution is supporting your team in e.g.
+                close your pending backlog tasks. The form of cooperation depends on you. Just let us about your needs
+                and we will confirm terms of condition.
+              </p>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section><!-- End F.A.Q Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="section-bg">
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6">
+
+            <div class="row">
+
+              <div class="col-sm-6">
+
+                <div class="footer-info">
+                  <h2>MHCreation</h2>
+                  <p>MHCreation is the best technology consultant who can help provide the best solutions for your
+                    business to lead the industrial revolution 4.0.</p>
+                </div>
+
+              </div>
+
+              <div class="col-sm-6">
+                <div class="footer-links">
+                  <h4>Useful Links</h4>
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#services">Services</a></li>
+                  </ul>
+                </div>
+
+                <div class="footer-links">
+                  <h4>Contact Us</h4>
+                  <p>
+                    Perumahan Rose Garden D11 <br>
+                    West Java, Depok 16454<br>
+                    Indonesia <br>
+                    <strong>Phone:</strong> +62 858 8457 1705<br>
+                    <strong>Email:</strong> mediahorecreation@gmail.com<br>
+                  </p>
+                </div>
+
+                <div class="social-links">
+                  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                  <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="form">
+
+              <h4>Send us a message</h4>
+              <p></p>
+
+              <form action="#" method="post" role="form" class="php-email-form">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                    data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                    data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                    data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required"
+                    data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validate"></div>
+                </div>
+
+                <div class="mb-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+
+                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+              </form>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>MHCreation</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="#">MHCreation</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <!-- <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script> -->
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
-<!-- Body End -->
-
-<!-- Script -->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-	AOS.init();
-	// You can also pass an optional settings object
-	// below listed default settings
-	AOS.init({
-	  // Global settings:
-	  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-	  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
-	  initClassName: 'aos-init', // class applied after initialization
-	  animatedClassName: 'aos-animate', // class applied on animation
-	  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
-	  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
-	  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
-	  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
-	  
-
-	  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-	  offset: 120, // offset (in px) from the original trigger point
-	  delay: 0, // values from 0 to 3000, with step 50ms
-	  duration: 400, // values from 0 to 3000, with step 50ms
-	  easing: 'ease', // default easing for AOS animations
-	  once: false, // whether animation should happen only once - while scrolling down
-	  mirror: false, // whether elements should animate out while scrolling past them
-	  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
-
-	});
-</script>
-<!-- Script End -->
 
 </html>
